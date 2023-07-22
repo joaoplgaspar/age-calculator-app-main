@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple: hsl(259, 100%, 65%);
+    --light-red: hsl(0, 100%, 67%);
+
+    --white: hsl(0, 0%, 100%);
+    --off-white: hsl(0, 0%, 94%);
+    --light-grey: hsl(0, 0%, 86%);
+    --smokey-grey: hsl(0, 1%, 44%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: var(--light-grey);
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container {
+    width: 800px;
+    background: var(--white);
+    border-radius: 20px 20px 200px 20px;
+    padding: 4rem;
+}
+
+form {
+    display: flex;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.input_container label {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+    color: var(--smokey-grey);
+    margin-bottom: 0.8rem;
+}
+
+.input_container input {
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: 16rem;
+    border: 1px solid var(--light-grey);
+}
+
+.input_container input:focus {
+    outline: 1px solid var(--purple);
+}
+
+.attribution {
+    text-align: center;
+}
+
+.linha {
+    border: 1px solid var(--light-grey);
+    width: 100%;
+}
+
+.separation {
+    display: flex;
+    align-items: center;
+}
+
+.separation button {
+    border-radius: 50%;
+    padding: 2rem;
+    border: none;
+    background: var(--purple);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.separation button:hover {
+    background: var(--off-black);
+}
+
+.result_container p {
+    font-size: 9rem;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.result_container strong {
+    color: var(--purple);
+}
+
+.required {
+    color: var(--light-red);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.labelRequired {
+    color: var(--light-red) !important; 
+}
+
+.inputRequired {
+    border: 1px solid var(--light-red) !important;
+}
+
+.mobile_line {
+    display: none;
+    border: 1px solid var(--light-grey);
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .card_container {
+        width: 365px;
+        border-radius: 20px 20px 120px 20px;
+    }
+
+    .input_container {
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+    
+    .input_container input {
+        font-size: 1.8rem;
+        font-weight: 800;
+        padding: 1rem 1rem;
+        border-radius: 5px;
+        width: 9rem;
+        border: 1px solid var(--light-grey);
+    }
+
+    .result_container p {
+        font-size: 5rem;
+    }
+    
+    .separation {
+        margin-block: 2rem;
+    }
+
+    .separation button {
+        padding: 2rem;
+        width: 40%;
+    }
+
+    .separation button img {
+        width: 100%;
+    }
+
+    .mobile_line {
+        display: block;
+    }
+  }
+
