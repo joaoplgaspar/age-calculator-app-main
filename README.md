@@ -13,7 +13,7 @@ Website que calcula sua idade ao colocar sua data de nascimento e exibe na tela 
 
 <hr>
 
-![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg#vitrinedev)
 
 <hr>
 
