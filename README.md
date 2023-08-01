@@ -22,7 +22,7 @@ Website que calcula sua idade ao colocar sua data de nascimento e exibe na tela 
 A Calculadora de Idade é um desafio proposto pelo site FrontEnd Mentor, que desafia a usar Javascript e uma função especifica de Date para calcular a idade de uma pessoa a partir de sua data de nascimento. O design foi sendo desenvolvido a partir de prints que o desafio liberou, sem utilizar figma. O projeto é responsivo
 
 
-<img src="https://github.com/joaoplgaspar/organo-lol/assets/130015259/c51a0561-26c7-43ec-8552-633fe8c7736c" width=100%/>
+[calculadoraIdade.webm](https://github.com/joaoplgaspar/age-calculator-app-main/assets/130015259/5a4e5bee-b4df-4828-b675-7f4c8d9452f6)
 
 
 # :hammer: Funcionalidades do projeto
